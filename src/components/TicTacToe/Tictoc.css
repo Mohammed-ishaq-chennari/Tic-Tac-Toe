@@ -1,0 +1,126 @@
+.container{
+    text-align: center;
+}
+.title{
+    margin-top:30px;
+    color: white;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title span{
+    color: #26ffcb;
+    padding-left: 15px;
+}
+.reset{
+    width: 250px;
+    height: 100px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 50px;
+    background: #1f3540;
+    font-size:26px ;
+    color: #26ffcb;
+    margin-top: 25px;
+    margin-bottom: 80px;
+}
+.boxex{
+    display: flex;
+    height: 180px;
+    width: 180px;
+    background: #345a6d;
+    border: 4px solid #0f1b21 ;
+    border-radius:12px ;
+    cursor: pointer;
+}
+.board{
+   height: 600px;
+   width: 564px;
+   display: flex;
+   margin: auto;
+
+}
+.boxex img{
+    margin :40px 40px;
+
+}
+.title img{
+    padding: 20px 20px;
+    height: 60px;
+}
+@media only screen and (max-width: 600px) {
+    .container{
+        overflow: hidden;
+    }
+    .title {
+        font-size: 30px; 
+    }
+    .board{
+        height: 460px;
+        width: 404px;
+        display: flex;
+        justify-content: center;
+        margin-top: 8vw;
+        overflow: hidden;
+     
+     }
+    .reset {
+        width: 200px;
+        height: 80px;
+        font-size: 20px;
+    }
+
+    .boxex {
+        height: 90px;
+        width: 90px;
+        overflow: hidden;
+        
+    }
+
+    .boxex img {
+        margin: 20px 20px;
+        overflow: hidden;
+    }
+}
+
+@media only screen and (max-width: 370px) {
+    .container{
+        overflow: hidden;
+    }
+    .title {
+        font-size: 25px; 
+    }
+    .board{
+        height: 440px;
+        width: 380px;
+        display: flex;
+      margin-left: -6.2vw;
+        margin-top: 18vw;
+        overflow: hidden;
+     
+     }
+    .reset {
+        width: 180px;
+        height: 60px;
+        font-size: 16px;
+        position:absolute;
+        margin-top: -19vh;
+        margin-bottom: 40px;
+        margin-left: -27vw;
+       
+    }
+
+    .boxex {
+        height: 70px;
+        width: 70px;
+        overflow: hidden;
+        
+    }
+
+    .boxex img {
+        margin: 17px 17px;
+        overflow: hidden;
+    }
+}
